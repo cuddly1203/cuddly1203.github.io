@@ -479,6 +479,9 @@ arr[2] –&amp;gt;不放数据
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
 
         
 
@@ -508,6 +511,8 @@ arr[2] –&amp;gt;不放数据
 <p>有效数据个数： 假设放了一个数据，arr[0] ,  此时rear=1，front=0, (rear+maxSize+front)%MaxSize = 1,即一个有效位数</p>
 <p>入列：rear = ( rear + 1 )%maxSize</p>
 <p>出列：front = ( front + 1 )%maxSize</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">代码块</span><br></pre></td></tr></table></figure>
+
 
                 
             </div>
@@ -839,6 +844,31 @@ arr[2] –&amp;gt;不放数据
 
 <script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
 
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
 
     </div>
     <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
